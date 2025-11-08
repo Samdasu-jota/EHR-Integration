@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Configuration files with secrets
+config.py
+.env
+*.secret
+
+# Private keys (NEVER commit these!)
+*.pem
+private_key*
+public_key*
+
+# JWK Set - uncomment if you want to keep it local only
+# jwks.json
+# If hosting on GitHub Pages, you'll need to commit jwks.json to docs/ folder
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
